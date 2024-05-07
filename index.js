@@ -37,10 +37,17 @@ function saveMeals(meals) {
 
 // load up the home route
 app.get('/', (req, res) => {
-  // Load meal data
-  const meals = loadMeals();
-  // Render a template with the meal data
-  res.render('main-template.ejs', { meals });
+  try {
+    // Load meal data
+    const meals = loadMeals();
+    // Send the list of meals as JSON
+    res.json(meals);
+  } catch (error) {
+    // Handle any errors that occur during the request
+    console.error('Error handling request:', error);
+    // Send a 500 (Internal Server Error) response
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 // route handler for /meals endpoint [POST]
