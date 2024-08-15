@@ -1,0 +1,10 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore macOS-specific system files
+.DS_Store
+._.DS_Store
+._Icon
+Icon
+
+# Ignore other unwanted files or directories
