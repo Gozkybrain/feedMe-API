@@ -13,7 +13,7 @@ const port = 3000;
 
 // Configure CORS to allow requests from specific origins
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: ['http://localhost:3000', 'http://localhost:5173', 'https://pharma-check-seven.vercel.app'],
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
 };
 
