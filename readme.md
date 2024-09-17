@@ -77,3 +77,6 @@ To get a random breakfast, you can make a `GET` request to the `/meals/random/br
 
 ```http
 GET http://localhost:3000/meals/random/breakfast
+
+
+Check out official [Simple Bootstrap Implementation of the eBuy API](https://github.com/Gozkybrain/feedMe)
