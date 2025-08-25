@@ -2,6 +2,8 @@
 
 Welcome to the Meal API documentation. This API provides access to a collection of meals, allowing you to retrieve meals by type, search for meals by name, and even get a random meal. Below are the available endpoints and their descriptions:
 
+Check out official [Simple Bootstrap Implementation of the eBuy API](https://github.com/Gozkybrain/feedMe)
+
 ## Base URL
 
 The base URL for all endpoints is `http://localhost:3000`.
@@ -79,4 +81,4 @@ To get a random breakfast, you can make a `GET` request to the `/meals/random/br
 GET http://localhost:3000/meals/random/breakfast
 
 
-Check out official [Simple Bootstrap Implementation of the eBuy API](https://github.com/Gozkybrain/feedMe)
+
